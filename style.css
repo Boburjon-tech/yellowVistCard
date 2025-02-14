@@ -1,0 +1,63 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:#F4D04E;
+}
+
+
+
+
+.MainDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.InnerFirstDiv {
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+}
+
+.title {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.aboutText {
+    width:336px;
+    height:72px;
+    font-size: 16px;
+    font-weight:500;
+    line-height: 150%;
+    color:#7f7f7f;
+}
+
+.btn {
+    width:fit-content;
+    text-decoration: none;
+    color:#000;
+    padding:4px 12px;
+    background-color:#F4D04E;
+    border-radius:4px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+
+.userDivWrap {
+    display: flex;
+    align-items: center;
+    margin-left: -202px; 
+    gap:12px;
+
+}
